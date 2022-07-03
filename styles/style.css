@@ -1,0 +1,144 @@
+.header{
+    background-color: #343434;
+    padding: 15px 0;
+}
+
+.list-items{
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.list-items:not(:last-child){
+    margin-right: 30px;
+}
+
+.main-nav ul{
+    text-align: right;
+}
+
+.logo{
+    float: left;
+}
+
+/* MAIN */
+
+/* SECTION MAIN-BLOCK */
+
+.main-block{
+    background-image: url('../img/main-pic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 300px 0 15px;
+    border-bottom: 5px solid #eee;
+}
+
+
+.news-block{
+    background-color: #e4593a;
+    padding: 16px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.news-block strong{
+    text-transform: uppercase;
+    border-right: 1px solid white;
+    padding: 0 10px 0 0;
+    margin: 0 5px 0 0;
+}
+
+/* SECTION NEWS-BLOCKS */
+
+.fa-news-block{
+    padding: 40px 0;
+}
+
+.first-news-block-header{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.black-text{
+    color: #272630;
+}
+
+.red-text{
+    color: #f26c4f;
+}
+
+.float-img-first{
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.fa-block-text{
+    font-size: 15px;
+    color: #737373;
+}
+
+.hr{
+    height: 1px;
+    background-color: #eee;
+    margin: 0 50px;
+}
+
+.float-img-second{
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.gen{
+    margin-top: 20px;
+}
+
+.last{
+    margin-bottom: 150px;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color:  #343434;
+    padding: 20px 0;
+}
+
+.social-link{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-color: #e4593a;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-link:not(:last-child){
+    margin-right: 20px;
+}
+
+.fb{
+    background-image: url('../img/ic-fb.png');
+}
+
+.tw{
+    background-image: url('../img/ic-tw.png');
+}
+
+.rss{
+    background-image: url('../img/ic-rss.png');
+}
+
+.copyright{
+    margin: 16px 0 0 0;
+    color: #aeaeae;
+    font-size: 14px;
+    float: left;
+    margin-top: 15px;
+    width: 42%;
+}
